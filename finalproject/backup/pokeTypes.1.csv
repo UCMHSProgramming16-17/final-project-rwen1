@@ -1,0 +1,19 @@
+#,Name,Half Dmg From,No Dmg From,Half Dmg To,Double Dmg From,No Damage To,Double Dmg To
+1,normal,[],['ghost'],"['rock', 'steel']",['fighting'],['ghost'],[]
+2,fighting,"['rock', 'bug', 'dark']",[],"['flying', 'poison', 'bug', 'psychic', 'fairy']","['flying', 'psychic', 'fairy']",['ghost'],"['normal', 'rock', 'steel', 'ice', 'dark']"
+3,flying,"['fighting', 'bug', 'grass']",['ground'],"['rock', 'steel', 'electric']","['rock', 'electric', 'ice']",[],"['fighting', 'bug', 'grass']"
+4,poison,"['fighting', 'poison', 'bug', 'grass', 'fairy']",[],"['poison', 'ground', 'rock', 'ghost']","['ground', 'psychic']",['steel'],"['grass', 'fairy']"
+5,ground,"['poison', 'rock']",['electric'],"['bug', 'grass']","['water', 'grass', 'ice']",['flying'],"['poison', 'rock', 'steel', 'fire', 'electric']"
+6,rock,"['normal', 'flying', 'poison', 'fire']",[],"['fighting', 'ground', 'steel']","['fighting', 'ground', 'steel', 'water', 'grass']",[],"['flying', 'bug', 'fire', 'ice']"
+7,bug,"['fighting', 'ground', 'grass']",[],"['fighting', 'flying', 'poison', 'ghost', 'steel', 'fire', 'fairy']","['flying', 'rock', 'fire']",[],"['grass', 'psychic', 'dark']"
+8,ghost,"['poison', 'bug']","['normal', 'fighting']",['dark'],"['ghost', 'dark']",['normal'],"['ghost', 'psychic']"
+9,steel,"['normal', 'flying', 'rock', 'bug', 'steel', 'grass', 'psychic', 'ice', 'dragon', 'fairy']",['poison'],"['steel', 'fire', 'water', 'electric']","['fighting', 'ground', 'fire']",[],"['rock', 'ice', 'fairy']"
+10,fire,"['bug', 'steel', 'fire', 'grass', 'ice', 'fairy']",[],"['rock', 'fire', 'water', 'dragon']","['ground', 'rock', 'water']",[],"['bug', 'steel', 'grass', 'ice']"
+11,water,"['steel', 'fire', 'water', 'ice']",[],"['water', 'grass', 'dragon']","['grass', 'electric']",[],"['ground', 'rock', 'fire']"
+12,grass,"['ground', 'water', 'grass', 'electric']",[],"['flying', 'poison', 'bug', 'steel', 'fire', 'grass', 'dragon']","['flying', 'poison', 'bug', 'fire', 'ice']",[],"['ground', 'rock', 'water']"
+13,electric,"['flying', 'steel', 'electric']",[],"['grass', 'electric', 'dragon']",['ground'],['ground'],"['flying', 'water']"
+14,psychic,"['fighting', 'psychic']",[],"['steel', 'psychic']","['bug', 'ghost', 'dark']",['dark'],"['fighting', 'poison']"
+15,ice,['ice'],[],"['steel', 'fire', 'water', 'ice']","['fighting', 'rock', 'steel', 'fire']",[],"['flying', 'ground', 'grass', 'dragon']"
+16,dragon,"['fire', 'water', 'grass', 'electric']",[],['steel'],"['ice', 'dragon', 'fairy']",['fairy'],['dragon']
+17,dark,"['ghost', 'dark']",['psychic'],"['fighting', 'dark', 'fairy']","['fighting', 'bug', 'fairy']",[],"['ghost', 'psychic']"
+18,fairy,"['fighting', 'bug', 'dark']",['dragon'],"['poison', 'steel', 'fire']","['poison', 'steel']",[],"['fighting', 'dragon', 'dark']"
